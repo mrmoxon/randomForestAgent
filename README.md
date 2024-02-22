@@ -28,12 +28,12 @@ You can run the agent in various modes and mazes. Here are some commands to get 
 
 - Run Pacman with the RandomForest agent in a large maze:
     ```bash
-    python pacman.py --layout largeMaze --pacman RandomForestAgent
+    python pacman.py --layout largeMaze --pacman ClassifierAgent
     ```
 
 - Run Pacman with the RandomForest agent in a hard maze:
     ```bash
-    python pacman.py --layout hardMaze --pacman RandomForestAgent
+    python pacman.py --layout hardMaze --pacman ClassifierAgent
     ```
 
 For additional commands and options, refer to the `commands.txt` file or use the `-h` flag to get help:
